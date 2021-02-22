@@ -1,0 +1,23 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin-left: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+}
+.logo-nav {
+  display: inherit;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+
+/* section what we do */
+
+.section-what-wee-do {
+    padding-bottom: 94px;
+  }
+  
+  .what-we-do {
+    background-color: var(--white);
+  }
+  
+  .what-we-do-img-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
+  .content-photo {
+    margin-right: 30px;
+  }
+  .content-photo:last-child {
+    margin-right: 0;
+  }
+  
+  .what-wee-do-container {
+    position: relative;
+  }
+  

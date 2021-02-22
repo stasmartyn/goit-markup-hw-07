@@ -1,0 +1,22 @@
+@import "./utils/variables";
+@import "./base/base.scss";
+@import'./base/container';
+
+
+//components
+@import'./components/description';
+@import'./components/button';
+@import'./components/title';
+
+
+//layout
+@import'./layout/hed';
+@import'./layout/section-hero';
+@import'./layout/descr-section';
+@import'./layout/section-what-wee-doo';
+@import'./layout/teem-section';
+@import'./layout/footer-studio';
+@import'./layout/my-client';
+@import'./layout/footer-studio';
+@import'./layout/modal';
+@import'./layout/portfolio';

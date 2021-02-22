@@ -1,0 +1,33 @@
+/* SECTION DESCR */
+
+
+
+.list-details-descr {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .list-text {
+    width: 270px;
+  
+    margin-right: 30px;
+    list-style-type: none;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+ 
+  .text-compani {
+    margin-bottom: 0;
+    margin: 0;
+    color: var(--txt-description);
+  }
+  .vector-img {
+    width: 65px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+  }
+  

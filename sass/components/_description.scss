@@ -1,0 +1,72 @@
+.hero-descr {
+  max-width: 695px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-descr {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--white);
+}
+.list-details-descr {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+.text-compani {
+  margin-bottom: 0;
+  margin: 0;
+  color: var(--txt-description);
+}
+.teem-descr {
+  color: var(--txt-description);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.list-descr-program {
+  color: var(--txt-description);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 4px;
+
+  display: inline-block;
+}
+
+.list-img-decsr {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--txt-title-color);
+  margin: 0;
+}
+
+.descr-text-img {
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  background-color: var(--tem-section);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
