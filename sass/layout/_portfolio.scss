@@ -85,3 +85,8 @@
     margin-top: 0;
   }
   
+  @media (max-width: 480px), (min-width: 320px) {
+    .portfolio-ul-descr{
+      flex-direction: column;
+    }
+  }
