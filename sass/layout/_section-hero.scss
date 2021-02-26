@@ -3,14 +3,17 @@
 .section-my-hero {
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
-    max-width: 1600px;
-    padding-bottom: 200px;
-    padding-top: 200px;
+    max-width: 480px;
+    height: 400px;
+    padding-bottom: 118px;
+    padding-top: 118px;
     background-image: linear-gradient(
         var(--hero-gradient-color),
         var(--hero-gradient-color)
       ),
-      url("../img/hero-baner.png");
+      url("../img/hero-img-mobile.png");
     background-size: cover;
+    &container{
+      padding: 0;
+    }
   }

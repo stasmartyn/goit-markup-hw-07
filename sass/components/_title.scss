@@ -1,51 +1,52 @@
 .title-details {
-    width: 270px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin: 0;
-    color: var(--txt-title-color);
-    margin-bottom: 10px;
-  }
-  .what-we-do-title {
-    width: 376px;
-    height: 42px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    margin: auto;
-    color: var(--txt-title-color);
-  }
-  .img-title-what {
-    position: absolute;
-    bottom: 0;
-    min-height: 70px;
-    margin: 0;
-    width: 100%;
-    background-color: var(--title-background);
-    color: var(--white);
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-style: normal;
-  }
-  .teem-title {
-    text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    color: var(--txt-title-color);
-    margin-top: 0;
-    margin-bottom: 54px;
-  }
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin: 0;
+  color: var(--txt-title-color);
+  margin-bottom: 10px;
+}
+.what-we-do-title {
+  width: 376px;
+  height: 42px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin: auto;
+  color: var(--txt-title-color);
+}
+.img-title-what {
+  position: absolute;
+  bottom: 0;
+  min-height: 70px;
+  margin: 0;
+  width: 100%;
+  background-color: var(--title-background);
+  color: var(--white);
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+}
+.teem-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--txt-title-color);
+  margin-top: 0;
+  margin-bottom: 30px;
+}

@@ -2,17 +2,15 @@
 
 
 .logo {
-    width: 145px;
-  
+    width: 134px;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
     color: var(--txt-title-color);
     text-decoration: none;
     font-family: var(--logo-font);
-    padding-bottom: 24px;
-    padding-top: 24px;
-    margin-right: 43px;
+    padding-bottom: 16px;
+    padding-top: 16px;
     cursor: pointer;
   }
   
@@ -27,14 +25,15 @@
   header {
     background-color: var(--white);
     display: flex;
-    border-bottom: 1px solid var(--border-color);
+    
+
   }
   .webstudio {
     border: none;
   }
   .navigation {
     margin: 0;
-    display: flex;
+    display: none;
     list-style-type: none;
     padding-left: 0;
   }
@@ -77,7 +76,7 @@
   }
   
   .contacts {
-    display: flex;
+    display: none;
     margin-top: 32px;
     list-style-type: none;
     margin-left: auto;
