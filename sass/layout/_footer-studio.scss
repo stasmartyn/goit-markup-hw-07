@@ -51,9 +51,11 @@ footer {
 
   letter-spacing: 0.03em;
 }
-.content-groop {
-  display: block;
-  align-items: baseline;
+.footer-studio {
+  &.container {
+    display: block;
+    align-items: baseline;
+  }
 }
 
 .footer-social-link {
@@ -124,7 +126,7 @@ footer {
 }
 
 .footer-form-item {
-  width: 450px;
+  min-width: 290px;
   height: 50px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -133,6 +135,8 @@ footer {
   border-radius: 4px;
   padding-left: 15px;
   outline: none;
+  margin: auto;
+  display: block;
 }
 
 .button-form-footer {
