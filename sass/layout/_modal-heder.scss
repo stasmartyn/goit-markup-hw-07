@@ -1,0 +1,64 @@
+.modal-heder-mobile {
+  max-width: 100%;
+  background-color: var(--white);
+  height: 100px;
+  height: 453px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+    0px 1px 3px rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+}
+.modal-decoration {
+  padding: 60px;
+  padding-top: 0;
+}
+.modal-heder-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.contact-modal-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.modal-heder-link-item {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--txt-title-color);
+  letter-spacing: 0.02em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.conctacts-link-modal {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: var(--txt-description);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  fill: var(--txt-description);
+}
+
+.modal-burger-hed {
+  border-bottom: 1px solid #ececec;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.modal-hed-hiden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
