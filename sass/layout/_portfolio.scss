@@ -57,7 +57,7 @@
   margin-top: 20px;
   list-style-type: none;
   text-align: left;
-  width: 370px;
+  max-width: 450px;
   height: 404px;
   &:first-child {
     margin-top: 0;
@@ -76,7 +76,7 @@
   display: block;
 }
 .portfolio-list-img-adaptive {
-  min-height: 294px;
+  min-height: 100%;
 }
 
 @media (max-width: 480px), (min-width: 320px) {

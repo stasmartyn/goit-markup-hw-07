@@ -54,3 +54,20 @@
   line-height: 24px;
   /* or 171% */
 }
+
+@media screen and(min-width:767px) {
+  .descr-text-img {
+    width: 354px;
+  }
+  .list-text {
+    width: 354px;
+    margin-right: 30px;
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+  .list-details-descr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

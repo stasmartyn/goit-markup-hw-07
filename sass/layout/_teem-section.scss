@@ -76,3 +76,19 @@
   padding-bottom: 60px;
   padding-top: 60px;
 }
+
+@media screen and(min-width:767px) {
+  .teem-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teem-photo-list {
+    width: 354px;
+    &:nth-child(odd) {
+      margin-right: 30px;
+    }
+  }
+  .teem-name-position {
+    padding-bottom: 24px;
+  }
+}

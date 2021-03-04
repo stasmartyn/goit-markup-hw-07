@@ -1,15 +1,13 @@
 /* footer */
 
-footer {
+.footer-studio {
+  margin-top: 0;
+  display: flex;
   background-color: var(--bacground-hero);
   max-width: 480px;
   margin-left: 0;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.footer-studio {
-  margin-top: 0;
-  display: flex;
 }
 .logo-footer {
   color: var(--white);
@@ -187,4 +185,10 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+@media screen and(min-width:767px) {
+  .footer-studio {
+    max-width: 768px;
+  }
 }

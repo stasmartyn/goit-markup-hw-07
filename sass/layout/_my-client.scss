@@ -104,3 +104,11 @@
   width: 88px;
   height: 45px;
 }
+@media screen and(min-width:767px) {
+  .my-client-item {
+    margin-right: 30px;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+}
