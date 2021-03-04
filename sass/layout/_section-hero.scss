@@ -40,10 +40,15 @@
     max-width: 768px;
   }
   .hero-descr {
-    font-style: normal;
+    max-width: 695px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--white);
     font-weight: 900;
-    font-size: 26px;
-    line-height: 42px;
+    font-size: 44px;
+    line-height: 1.364;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
