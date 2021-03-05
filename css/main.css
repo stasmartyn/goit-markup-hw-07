@@ -183,6 +183,12 @@ a {
   color: var(--txt-title-color);
 }
 
+@media screen and (min-width: 767px) {
+  .button-portfolio-style {
+    justify-content: center;
+  }
+}
+
 .title-details {
   text-align: center;
   font-style: normal;
@@ -416,6 +422,14 @@ header {
   .logo {
     padding-top: 26px;
     padding-bottom: 26px;
+  }
+  .conctacts-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
   }
 }
 
@@ -679,7 +693,7 @@ header {
   margin-top: 0;
   display: flex;
   background-color: var(--bacground-hero);
-  max-width: 480px;
+  max-width: 1600px;
   margin-left: 0;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -867,7 +881,7 @@ header {
 
 @media screen and (min-width: 767px) {
   .footer-studio {
-    max-width: 768px;
+    width: 100%;
   }
 }
 
@@ -994,7 +1008,7 @@ header {
   margin-top: 0;
   display: flex;
   background-color: var(--bacground-hero);
-  max-width: 480px;
+  max-width: 1600px;
   margin-left: 0;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1182,7 +1196,7 @@ header {
 
 @media screen and (min-width: 767px) {
   .footer-studio {
-    max-width: 768px;
+    width: 100%;
   }
 }
 
@@ -1468,9 +1482,27 @@ textarea:focus {
   min-height: 100%;
 }
 
-@media (max-width: 480px), (min-width: 320px) {
+@media screen and (min-width: 320px), (max-width: 480px) {
   .portfolio-ul-descr {
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .portfolio-ul-descr {
+    max-width: 738px;
+    flex-direction: inherit;
+    justify-content: left;
+  }
+  .img-portfolio-list {
+    max-width: 354px;
+    margin-top: 30px;
+  }
+  .img-portfolio-list:nth-child(2) {
+    margin-top: 0;
+  }
+  .img-portfolio-list:nth-child(odd) {
+    margin-right: 30px;
   }
 }
 

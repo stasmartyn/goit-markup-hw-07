@@ -71,3 +71,9 @@
     color: var(--txt-title-color);
   }
 }
+
+@media screen and(min-width:767px) {
+  .button-portfolio-style {
+    justify-content: center;
+  }
+}

@@ -4,7 +4,7 @@
   margin-top: 0;
   display: flex;
   background-color: var(--bacground-hero);
-  max-width: 480px;
+  max-width: 1600px;
   margin-left: 0;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -189,6 +189,6 @@
 
 @media screen and(min-width:767px) {
   .footer-studio {
-    max-width: 768px;
+    width: 100%;
   }
 }

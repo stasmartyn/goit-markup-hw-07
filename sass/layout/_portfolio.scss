@@ -78,8 +78,27 @@
   min-height: 100%;
 }
 
-@media (max-width: 480px), (min-width: 320px) {
+@media screen and (min-width: 320px), (max-width: 480px) {
   .portfolio-ul-descr {
     flex-direction: column;
+  }
+}
+
+@media screen and(min-width:767px) {
+  .portfolio-ul-descr {
+    max-width: 738px;
+    flex-direction: inherit;
+    justify-content: left;
+  }
+
+  .img-portfolio-list {
+    max-width: 354px;
+    margin-top: 30px;
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+    &:nth-child(odd) {
+      margin-right: 30px;
+    }
   }
 }
