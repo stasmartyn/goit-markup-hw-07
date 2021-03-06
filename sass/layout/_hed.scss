@@ -28,7 +28,7 @@
   line-height: 31px;
 }
 
-header {
+.header {
   background-color: var(--white);
   display: flex;
 }
@@ -146,8 +146,6 @@ header {
     margin: 0 0 0 auto;
     padding-left: 0;
     align-items: baseline;
-    padding-top: 21px;
-    padding-bottom: 21px;
   }
   .conctacts-link-item {
     margin: 0%;
@@ -175,7 +173,22 @@ header {
     font-size: 12px;
     line-height: 14px;
     /* identical to box height */
-
+    padding-top: 21px;
+    padding-bottom: 5px;
+    fill: var(--txt-description);
     letter-spacing: 0.02em;
+  }
+  .conctacts-link-problem {
+    padding-top: 5px;
+    padding-bottom: 21px;
+  }
+  .header {
+    border: 1px solid var(--border-color);
+  }
+  .nav-active-anchor-portfolio::after {
+    margin-top: 31px;
+  }
+  .nav-active-anchor::after {
+    margin-top: 34px;
   }
 }
