@@ -440,7 +440,7 @@ a {
     border: 1px solid var(--border-color);
   }
   .nav-active-anchor-portfolio::after {
-    margin-top: 31px;
+    margin-top: 34px;
   }
   .nav-active-anchor::after {
     margin-top: 34px;
