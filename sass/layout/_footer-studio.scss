@@ -403,3 +403,17 @@
     margin-top: 0;
   }
 }
+
+@media screen and(min-width:900px) {
+  .footer-form {
+    display: flex;
+  }
+  .button-form-footer {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-form-item {
+    margin-right: 12px;
+  }
+}

@@ -1389,6 +1389,20 @@ a {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .footer-form {
+    display: flex;
+  }
+  .button-form-footer {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-form-item {
+    margin-right: 12px;
+  }
+}
+
 .my-client {
   background-color: var(--white);
   padding-bottom: 60px;
@@ -1988,6 +2002,20 @@ a {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .footer-form {
+    display: flex;
+  }
+  .button-form-footer {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-form-item {
+    margin-right: 12px;
+  }
+}
+
 .backdrop {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.2);
@@ -2501,5 +2529,10 @@ textarea:focus {
   right: 50%;
   transform: translate(50%, 0%);
   width: 100%;
+}
+
+.close-btn-img-heder {
+  width: 18px;
+  height: 18px;
 }
 /*# sourceMappingURL=main.css.map */
