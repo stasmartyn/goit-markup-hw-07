@@ -277,8 +277,9 @@
 
   .footer-social-link {
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 12px;
     margin-left: 70px;
+    text-align: start;
   }
 
   .social-list {
@@ -388,5 +389,15 @@
   }
   .link-footer {
     text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: var(--txt-description);
+  }
+  .footer-contact-list-item:first-child {
+    margin-top: 0;
   }
 }

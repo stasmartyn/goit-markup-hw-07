@@ -3,7 +3,6 @@
 .section-my-hero {
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
   height: 400px;
   padding-bottom: 118px;
   padding-top: 118px;
@@ -37,7 +36,6 @@
         var(--hero-gradient-color)
       ),
       url("../img/hero-tablet.png");
-    max-width: 768px;
   }
   .hero-descr {
     max-width: 695px;
