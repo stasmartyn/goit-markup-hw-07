@@ -407,6 +407,7 @@
 @media screen and(min-width:900px) {
   .footer-form {
     display: flex;
+    justify-content: center;
   }
   .button-form-footer {
     margin-top: 0;
@@ -415,5 +416,6 @@
   }
   .footer-form-item {
     margin-right: 12px;
+    margin-left: 0;
   }
 }
