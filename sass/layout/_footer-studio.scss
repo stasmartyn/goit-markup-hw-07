@@ -22,7 +22,9 @@
   flex-direction: column;
   text-align: center;
 }
-
+.footer-contact-list-item:first-child {
+  margin-top: 0;
+}
 .footer-contact {
   margin-left: 0;
   list-style-type: none;

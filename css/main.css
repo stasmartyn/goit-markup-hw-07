@@ -610,7 +610,7 @@ a {
 .section-my-hero {
   margin-left: auto;
   margin-right: auto;
-  height: 400px;
+  max-width: 1600px;
   padding-bottom: 118px;
   padding-top: 118px;
   background-image: linear-gradient(var(--hero-gradient-color), var(--hero-gradient-color)), url("../img/hero-img-mobile.png");
@@ -640,7 +640,6 @@ a {
     background-image: linear-gradient(var(--hero-gradient-color), var(--hero-gradient-color)), url("../img/hero-tablet.png");
   }
   .hero-descr {
-    max-width: 695px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0;
@@ -659,8 +658,6 @@ a {
   .section-my-hero {
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
-    max-width: 1600px;
     padding-bottom: 200px;
     padding-top: 200px;
     background-image: linear-gradient(var(--hero-gradient-color), var(--hero-gradient-color)), url("../img/hero-baner.png");
@@ -1026,6 +1023,10 @@ a {
   display: block;
   flex-direction: column;
   text-align: center;
+}
+
+.footer-contact-list-item:first-child {
+  margin-top: 0;
 }
 
 .footer-contact {
@@ -1621,6 +1622,10 @@ a {
   display: block;
   flex-direction: column;
   text-align: center;
+}
+
+.footer-contact-list-item:first-child {
+  margin-top: 0;
 }
 
 .footer-contact {
