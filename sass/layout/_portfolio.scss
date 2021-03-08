@@ -82,6 +82,9 @@
   .portfolio-ul-descr {
     flex-direction: column;
   }
+  .img-portfolio-list {
+    height: auto;
+  }
 }
 
 @media screen and(min-width:767px) {
@@ -100,5 +103,94 @@
     &:nth-child(odd) {
       margin-right: 30px;
     }
+  }
+}
+
+// DESCTOP ADEPT
+@media screen and(min-width:1199px) {
+  .portfolio-work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .portfolio-map-descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--white);
+    letter-spacing: 0.03em;
+    background-color: rgba(33, 150, 243, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 63px 24px 63px 24px;
+    transform: translateY(101%);
+    margin: 0;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .portfolio-descr-list-item {
+    position: relative;
+    overflow: hidden;
+  }
+  .portfolio-descr-list-item:hover .portfolio-map-descr {
+    transform: translateY(0);
+  }
+  .img-portfolio-list-link:focus .portfolio-map-descr {
+    transform: translateY(0);
+  }
+
+  .img-portfolio-list:focus-within {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .portfolio-ul-descr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+
+    margin-bottom: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+  }
+  .portfolio-descr-position {
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-right: 24px;
+  }
+
+  .img-portfolio-list {
+    border: 1px solid var(--border-button-color);
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: left;
+    width: 370px;
+    height: 404px;
+  }
+
+  .img-portfolio-list:hover,
+  .img-portfolio-list:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+
+  .img-portfolio-list-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .img-portfolio-list:nth-child(3n) {
+    margin-right: 0;
+  }
+  .img-portfolio-list:nth-child(-n + 3) {
+    margin-top: 0;
   }
 }

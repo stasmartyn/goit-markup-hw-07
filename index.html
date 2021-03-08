@@ -19,16 +19,32 @@
       <div class="container flex-container">
         <!-- навигация  -->
         <nav class="logo-nav">
-          <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
-          <div class="mobile-nav-burger">
          
-          <button type="button" class="button-burger">
-          <svg class="burger-menu-item">
-            <use href="./img/sprit-icon.svg#icon-burger">
-            </use>
-          </svg>
-          </button>
+        
+        <div>
+
+
+          <div>
+
+            <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
           </div>
+          
+          
+          
+          <div>
+
+            <button type="button" class="burger-btn">
+              <svg class="burger-menu-item">
+                <use href="./img/sprit-icon.svg#icon-burger">
+                </use>
+              </svg>
+            </button>
+          </div>
+          
+        </div>
+          
+           
+          
           <ul class="navigation">
             <li class="list-anchor">
               <a href="/" class="nav-anchor nav-active-anchor">Студия</a>
@@ -179,11 +195,17 @@
           <h2 class="teem-title">Наша команда</h2>
           <ul class="teem-list">
             <li class="teem-photo-list">
-              <img
-                src="img/teem1x/igor-mobile.jpg"
-                alt="Игорь Демьяненко"
-                
-              />
+              <picture>
+                <source srcset='./img/teem1x/img-1-2@.jpg 2x,img/teem1x/igor-mobile.jpg 1x' media='(max-width: 767px) ' type='image/jpeg'>
+                <source srcset='./img/teem1x/img-tablet-1-2@.jpg 2x, img/teem-tablet-1x/img-igor-tablet.jpg 1x' media='(min-width: 767px)' type='image/jpeg'>
+             
+
+                <img
+                  src="img/teem1x/igor-mobile.jpg"
+                  alt="Игорь Демьяненко"
+                  
+                />
+              </picture>
               <div class="teem-name-position">
               <h3 class="teem-name">Игорь Демьяненко</h3>
               <p class="teem-descr">Product Designer</p>
@@ -222,11 +244,16 @@
             </li>
 
             <li class="teem-photo-list">
-              <img
-                src="img/teem1x/olga-mobile.jpg"
-                alt="Ольга Репина"
-                
-              />
+              <picture>
+                <source srcset='./img/teem1x/img-4-2@.jpg 2x,img/teem1x/olga-mobile.jpg 1x' media='(max-width: 767px)' type='image/jpeg'>
+                <source srcset='./img/teem1x/img-tablet-2-2@.jpg 2x, img/teem-tablet-1x/img-olga-tablet.jpg 1x' media='(min-width: 767px)' type='image/webp'>
+              
+                  <img
+                    src="img/teem1x/olga-mobile.jpg"
+                    alt="Ольга Репина"
+                    
+                  />
+              </picture>
               <div class="teem-name-position">
               <h3 class="teem-name">Ольга Репина</h3>
               <p class="teem-descr">Frontend Developer</p>
@@ -265,11 +292,16 @@
             </li>
 
             <li class="teem-photo-list">
-              <img
-                src="img/teem1x/nikola-mobile.jpg"
-                alt="Николай Тарасов"
-               
-              />
+              <picture>
+                <source srcset='./img/teem1x/img-3-2@.jpg 2x,img/teem1x/nikola-mobile.jpg 1x' media='(max-width: 767px)' type='image/jpeg'>
+                <source srcset='./img/teem1x/img-tablet-3-2@.jpg 2x, img/teem-tablet-1x/img-nikola-tablet.jpg 1x' media='(min-width: 767px)' type='image/webp'>
+              
+                  <img
+                    src="img/teem1x/nikola-mobile.jpg"
+                    alt="Николай Тарасов"
+                   
+                  />
+              </picture>
               <div class="teem-name-position">
               <h3 class="teem-name">Николай Тарасов</h3>
               <p class="teem-descr">Marketing</p>
@@ -308,11 +340,16 @@
             </li>
 
             <li class="teem-photo-list">
-              <img
-                src="img/teem1x/miha-mobile.jpg"
-                alt="Михаил Ермаков"
-               
-              />
+              <picture>
+                <source srcset='./img/teem1x/img-2-2@.jpg 2x,img/teem1x/miha-mobile.jpg 1x' media='(max-width: 767px)' type='image/jpeg'>
+                <source srcset='./img/teem1x/img-tablet-4-2@.jpg 2x, img/teem-tablet-1x/img-miha-tablet.jpg 1x' media='(min-width: 767px)' type='image/jpeg'>
+            
+                  <img
+                    src="img/teem1x/miha-mobile.jpg"
+                    alt="Михаил Ермаков"
+                   
+                  />
+              </picture>
               <div class="teem-name-position">
               <h3 class="teem-name">Михаил Ермаков</h3>
               <p class="teem-descr">UI Designer</p>
@@ -407,78 +444,78 @@
     <!-- footer contacts -->
 
 
-      <footer class="footer-studio">
-        <div class="container ">
-          <div class="tablet-footer-style">
-            <div class="footer-style">
-              <a href="./index.html" class="logo logo-footer">
-                <span class="logo-color">Web</span>Studio</a>
-      
-              <ul class="footer-contact">
-                <li class="footer-contact-list-item">
-                  <address>
-                    <p class="contact-adres">г. Киев, пр-т Леси Украинки, 26</p>
-                  </address>
-                </li>
-                <li class="footer-contact-list-item">
-                  <a href="mailto:info@example.com" class="link-footer"> info@example.com</a>
-                </li>
-                <li class="footer-contact-list-item">
-                  <a href="tel:+380991111111" class="link-footer">+38 099 111 11 11</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-social-link ">
-              <h2 class="footer-social-title">присоединяйтесь</h2>
-              <ul class="social-list">
-                <li class="footer-contact-list-social">
-                  <a href="#" class="footer-social-link-item">
-                    <svg class="vector-footer-img">
-                      <use href="./img/sprit-icon.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="footer-contact-list-social">
-                  <a href="#" class="footer-social-link-item">
-                    <svg class="vector-footer-img">
-                      <use href="./img/sprit-icon.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="footer-contact-list-social">
-                  <a href="#" class="footer-social-link-item">
-                    <svg class="vector-footer-img">
-                      <use href="./img/sprit-icon.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="footer-contact-list-social">
-                  <a href="#" class="footer-social-link-item">
-                    <svg class="vector-footer-img">
-                      <use href="./img/sprit-icon.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
+    <footer class="footer-studio">
+      <div class="container content-groop ">
+        <div class="tablet-footer-style">
+          <div class="footer-style">
+            <a href="./index.html" class="logo logo-footer">
+              <span class="logo-color">Web</span>Studio</a>
+    
+            <ul class="footer-contact">
+              <li class="footer-contact-list-item">
+                <address>
+                  <p class="contact-adres">г. Киев, пр-т Леси Украинки, 26</p>
+                </address>
+              </li>
+              <li class="footer-contact-list-item">
+                <a href="mailto:info@example.com" class="link-footer"> info@example.com</a>
+              </li>
+              <li class="footer-contact-list-item">
+                <a href="tel:+380991111111" class="link-footer">+38 099 111 11 11</a>
+              </li>
+            </ul>
           </div>
-      
-          <div class="second-form">
-            <p class="title-footer-form">Подпишитесь на рассылку</p>
-            <form class="footer-form">
-      
-              <input type="email" name="footer-emaile" class="footer-form-item" placeholder="E-mail" required>
-              <button type="submit" class="button-form-footer">Подписаться
-                <svg class="icon-icon-send">
-                  <use href="./img/sprit-icon.svg#icon-icon-send"></use>
-                </svg>
-              </button>
-            </form>
-      
+          <div class="footer-social-link ">
+            <h2 class="footer-social-title">присоединяйтесь</h2>
+            <ul class="social-list">
+              <li class="footer-contact-list-social">
+                <a href="#" class="footer-social-link-item">
+                  <svg class="vector-footer-img">
+                    <use href="./img/sprit-icon.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-contact-list-social">
+                <a href="#" class="footer-social-link-item">
+                  <svg class="vector-footer-img">
+                    <use href="./img/sprit-icon.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-contact-list-social">
+                <a href="#" class="footer-social-link-item">
+                  <svg class="vector-footer-img">
+                    <use href="./img/sprit-icon.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-contact-list-social">
+                <a href="#" class="footer-social-link-item">
+                  <svg class="vector-footer-img">
+                    <use href="./img/sprit-icon.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
-      
         </div>
-      </footer>
+    
+        <div class="second-form">
+          <p class="title-footer-form">Подпишитесь на рассылку</p>
+          <form class="footer-form">
+    
+            <input type="email" name="footer-emaile" class="footer-form-item" placeholder="E-mail" required>
+            <button type="submit" class="button-form-footer">Подписаться
+              <svg class="icon-icon-send">
+                <use href="./img/sprit-icon.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+    
+        </div>
+    
+      </div>
+    </footer>
 
   <div class="backdrop is-hidden" data-modal >
    <div class="modal " >
@@ -526,9 +563,12 @@
   
   </textarea>
 
-</label>
-<label class="polisi-form" >
-  <input type="checkbox" class="polisi-checkbox-item"> Соглашаюсь с рассылкой и принимаю <a href="#" class="polisi-link">Условия договора</a> 
+<label class="polisi-form">
+  <input type="checkbox" class="polisi-checkbox-item">
+  <span class="poisi-icon-form"></span>
+  Соглашаюсь с рассылкой и принимаю
+  <a href="#" class="polisi-link">Условия договора</a>
+
 </label>
 
 <button type="submit" class="button-form">Отправить</button>

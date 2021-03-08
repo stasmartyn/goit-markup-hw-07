@@ -183,12 +183,63 @@ textarea {
 textarea:focus {
   border-color: var(--logo-color);
 }
+.polisi-checkbox-item {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
 
-.polisi-checkbox-item::before {
-  content: "";
-  border: solid 2px var(--txt-title-color);
-  height: 16px;
-  width: 16px;
-  display: block;
-  border-radius: 2px;
+@media screen and(min-width:1199px) {
+  .polisi-form {
+    max-width: 480px;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.03em;
+  }
+  .poisi-icon-form {
+    border: solid 2px var(--txt-title-color);
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    border-radius: 2px;
+  }
+
+  .polisi-checkbox-item:checked + .poisi-icon-form {
+    background-image: url("../img/icon-check.svg");
+    background-size: cover;
+    border-color: transparent;
+    background-origin: border-box;
+  }
+
+  .poisi-icon-form {
+    border: solid 2px var(--txt-title-color);
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+    background-color: var(--white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) visibility 250ms
+      cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  textarea {
+    width: 448px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
 }
