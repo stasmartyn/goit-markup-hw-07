@@ -2571,6 +2571,12 @@ textarea:focus {
   padding-bottom: 20px;
 }
 
+.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: visible;
+}
+
 @media screen and (min-width: 767px) {
   .burger-menu-item-open {
     display: none;
