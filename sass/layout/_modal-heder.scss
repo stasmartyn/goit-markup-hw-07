@@ -2,21 +2,23 @@
   max-width: 100%;
   background-color: var(--white);
   height: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
     0px 1px 3px rgba(0, 0, 0, 0.16);
   box-sizing: border-box;
 }
 .modal-decoration {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 48px 40px;
 }
 .modal-heder-list {
   list-style: none;
   padding: 0;
   text-align: left;
   margin-top: 0;
-  margin-bottom: 302px;
+  align-items: flex-end;
 }
 
 .contact-modal-list {
@@ -62,7 +64,7 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 50%;
   transform: translate(50%, 0%);
@@ -114,6 +116,9 @@
   border: none;
   padding-top: 20px;
   padding-bottom: 20px;
+  position: absolute;
+  top: 0;
+  right: 15px;
 }
 
 .is-open {
@@ -146,6 +151,7 @@
   display: flex;
   padding-left: 0;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .link-modal-social {
@@ -154,6 +160,15 @@
 }
 .link-modal-socia:first-child {
   padding-left: 0;
+}
+
+@media screen and(max-width:390px) {
+  .modal-phone {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+  }
 }
 
 @media screen and(min-width:767px) {
