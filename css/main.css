@@ -2554,6 +2554,10 @@ textarea:focus {
   cursor: pointer;
 }
 
+.burger-btn:hover .burger-menu-item-open {
+  fill: #2196f3;
+}
+
 .mobile-menu {
   justify-content: space-between;
 }
@@ -2576,6 +2580,38 @@ textarea:focus {
   visibility: visible;
   opacity: 1;
   pointer-events: visible;
+}
+
+.modal-heder-active-link::after {
+  content: "";
+  width: 61px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--logo-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}
+
+.modal-heder-active-link-portfolio {
+  color: var(--logo-color);
+}
+
+.modal-heder-active-link {
+  color: var(--logo-color);
+}
+
+.modal-heder-active-link-portfolio::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: var(--logo-color);
 }
 
 @media screen and (min-width: 767px) {
