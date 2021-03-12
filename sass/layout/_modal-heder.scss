@@ -1,29 +1,29 @@
 .modal-heder-mobile {
   max-width: 100%;
   background-color: var(--white);
-  height: 100px;
-  height: 453px;
+  height: 100%;
+
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
     0px 1px 3px rgba(0, 0, 0, 0.16);
   box-sizing: border-box;
 }
 .modal-decoration {
-  padding: 60px;
-  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .modal-heder-list {
   list-style: none;
   padding: 0;
-  text-align: center;
+  text-align: left;
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 302px;
 }
 
 .contact-modal-list {
   list-style: none;
-  padding: 0;
-  text-align: center;
-  margin-bottom: 0;
+  padding-left: 0;
+  text-align: left;
+  margin-bottom: 54px;
   margin-top: 0;
 }
 
@@ -31,24 +31,25 @@
   display: block;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
   color: var(--txt-title-color);
   letter-spacing: 0.02em;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .conctacts-link-modal {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   color: var(--txt-description);
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 24px;
+  line-height: 28px;
   letter-spacing: 0.02em;
-  fill: var(--txt-description);
+  display: block;
 }
 
 .modal-burger-hed {
@@ -103,7 +104,7 @@
 
 .heder-modal-hed {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -121,34 +122,38 @@
   pointer-events: visible;
 }
 
-.modal-heder-active-link::after {
-  content: "";
-  width: 61px;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--logo-color);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8px;
-}
 .modal-heder-active-link-portfolio {
   color: var(--logo-color);
 }
 .modal-heder-active-link {
+  padding-top: 0;
   color: var(--logo-color);
 }
+.modal-phone {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  color: var(--logo-color);
 
-.modal-heder-active-link-portfolio::after {
-  content: "";
-  width: 80px;
-  height: 4px;
-  border-radius: 2px;
-  margin-top: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  background-color: var(--logo-color);
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+}
+
+.list-modal-social {
+  list-style: none;
+  justify-content: left;
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+
+.link-modal-social {
+  padding: 10px 10px 8px 10px;
+  color: var(--logo-color);
+}
+.link-modal-socia:first-child {
+  padding-left: 0;
 }
 
 @media screen and(min-width:767px) {
