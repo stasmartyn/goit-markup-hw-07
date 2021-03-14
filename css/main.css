@@ -271,6 +271,9 @@ a {
     line-height: 42px;
     letter-spacing: 0.03em;
   }
+  .title-details {
+    text-align: left;
+  }
 }
 
 .burger-menu-item {
@@ -658,6 +661,9 @@ a {
     padding-top: 200px;
     background-image: linear-gradient(var(--hero-gradient-color), var(--hero-gradient-color)), url("../img/hero-baner.png");
     background-size: cover;
+  }
+  .hero-descr {
+    max-width: 696px;
   }
 }
 
@@ -2529,7 +2535,8 @@ textarea:focus {
   transform: translate(50%, 0%);
   width: 100%;
   z-index: 10;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) pointer-events 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), pointer-events 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 767px;
 }
 
 .close-btn-img-heder {
