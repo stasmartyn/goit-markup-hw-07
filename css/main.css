@@ -264,6 +264,12 @@ a {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 767px) {
+  .title-details {
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 1199px) {
   .teem-title {
     margin-bottom: 50px;
@@ -477,6 +483,9 @@ a {
   .nav-active-anchor::after {
     margin-top: 34px;
   }
+  .webstudio {
+    border: 1px solid #ECECEC;
+  }
 }
 
 @media screen and (min-width: 1199px) {
@@ -682,10 +691,12 @@ a {
 
 .list-text {
   list-style-type: none;
+  margin-bottom: 30px;
 }
 
 .list-text:last-child {
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .text-compani {

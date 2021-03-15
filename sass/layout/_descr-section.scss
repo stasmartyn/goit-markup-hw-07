@@ -14,8 +14,10 @@
 
 .list-text {
   list-style-type: none;
+  margin-bottom: 30px;
   &:last-child {
     margin-right: 0;
+    margin-bottom: 0;
   }
 }
 
