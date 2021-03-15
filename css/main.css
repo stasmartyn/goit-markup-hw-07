@@ -506,7 +506,7 @@ a {
     border-bottom: 1px solid var(--border-color);
   }
   .webstudio {
-    border: none;
+    border: 1px solid #ECECEC;
   }
   .navigation {
     margin: 0;
@@ -1144,6 +1144,7 @@ a {
   outline: none;
   margin: auto;
   display: block;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (min-width: 479px) {
@@ -1759,6 +1760,7 @@ a {
   outline: none;
   margin: auto;
   display: block;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (min-width: 479px) {
