@@ -1144,6 +1144,7 @@ a {
   outline: none;
   margin: auto;
   display: block;
+  cursor: pointer;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -1172,6 +1173,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .icon-icon-send {
@@ -1760,6 +1762,7 @@ a {
   outline: none;
   margin: auto;
   display: block;
+  cursor: pointer;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -1788,6 +1791,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .icon-icon-send {
