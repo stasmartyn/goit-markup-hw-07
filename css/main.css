@@ -1201,6 +1201,10 @@ a {
   letter-spacing: 0.03em;
 }
 
+.link-footer:hover, .link-footer:focus {
+  color: var(--logo-color);
+}
+
 @media screen and (min-width: 767px) {
   .footer-studio {
     width: 100%;
@@ -1817,6 +1821,10 @@ a {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.link-footer:hover, .link-footer:focus {
+  color: var(--logo-color);
 }
 
 @media screen and (min-width: 767px) {
